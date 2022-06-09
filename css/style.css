@@ -67,12 +67,10 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 .header::before {
     content: "";
-
     position: absolute;
     top: 0;
     right: 0;
@@ -80,7 +78,6 @@ body {
     left: 0;
 
     background-color: #000;
-
     opacity: 0.5;
 }
 
@@ -99,7 +96,6 @@ body {
     margin-top: 225px;
     margin-right: auto;
     margin-left: auto;
-
 }
 
 .items-header {
@@ -191,7 +187,6 @@ body {
     background-color: #48060d;
     border-radius: 5px;
     box-shadow: 0px 0px 10px #000;
-
 }
 
 #menu__toggle:checked~.b-popup {
@@ -235,7 +230,6 @@ body {
 .title-trends::after,
 .title-shop::after {
     content: "";
-
     display: block;
     width: 65px;
     height: 2px;
@@ -255,7 +249,6 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-
 }
 
 .trend::before {
@@ -560,9 +553,7 @@ body {
     margin-top: 7px;
 
     font-size: 15px;
-
     line-height: 22px;
-
 }
 
 .product-priсe {
@@ -724,7 +715,6 @@ body {
 
 .title-pop-up::after {
     content: "";
-
     display: block;
     width: 65px;
     height: 2px;
@@ -782,12 +772,12 @@ body {
 .image-feedback {
     height: 15px;
     margin-right: 13px;
-
 }
 
 .mailing {
     margin-top: 30px;
     margin-bottom: 12px;
+
     font-size: 12px;
 }
 
@@ -806,6 +796,7 @@ body {
 .mailing-choice {
     margin-right: 30px;
     margin-bottom: 30px;
+
     font-size: 12px;
 }
 
@@ -816,6 +807,7 @@ body {
     width: 22px;
     height: 22px;
     margin-right: 12px;
+
     background-image: url(../svg/form-empty-circle.svg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -829,12 +821,12 @@ body {
 .question {
     margin-top: 30px;
     margin-bottom: 10px;
+
     font-size: 12px;
 }
 
 .textarea {
     width: calc(100% - 40px);
-
     padding: 19px 20px 97px;
     margin-bottom: 20px;
 
@@ -845,8 +837,9 @@ body {
 }
 
 .container-question {
-    font-size: 14px;
     margin-bottom: 29px;
+
+    font-size: 14px;
 }
 
 
@@ -856,7 +849,6 @@ body {
         padding: 41px 35px 125px;
 
         background-image: url(../img/banner-bg-tablet.jpg);
-
     }
 
     .header>.container {
@@ -875,6 +867,7 @@ body {
     .menu__btn {
         top: 50px;
         right: 35px;
+
         width: 27px;
         height: 22px;
     }
@@ -993,7 +986,6 @@ body {
     .pop-up-container {
         max-width: 390px;
     }
-
 }
 
 @media (min-width: 1200px) {
