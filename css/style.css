@@ -826,8 +826,11 @@ body {
 }
 
 .textarea {
-    width: calc(100% - 40px);
-    padding: 19px 20px 97px;
+    max-width: calc(100% - 40px);
+    min-width: calc(100% - 40px);
+    max-height: 130px;
+    min-height: 130px;
+    padding: 19px 20px;
     margin-bottom: 20px;
 
     font-size: 12px;
