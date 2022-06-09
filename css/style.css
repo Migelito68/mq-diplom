@@ -791,6 +791,10 @@ body {
     font-size: 12px;
 }
 
+.mailing-form {
+    display: flex;
+}
+
 .mailing-radio {
     display: inline-block;
 }
