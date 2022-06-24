@@ -666,8 +666,7 @@ body {
     left: 0px;
     z-index: 3;
 
-    visibility: visible;
-    overflow: scroll;
+    overflow: auto;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -678,27 +677,27 @@ body {
 }
 
 .pop-up-intermediate {
-    position: fixed;
+    position: relative;
     max-width: 330px;
-    height: 624px;
+    max-height: 624px;
     padding-top: 34px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-#menu__pop-up:checked + .pop-up {
+#menu__pop-up:checked+.pop-up {
     visibility: hidden;
 }
 
-#menu__pop-up:checked + .pop-up-intermediate {
+#menu__pop-up:checked+.pop-up-intermediate {
     visibility: hidden;
 }
 
-#menu__pop-up:checked + .pop-up-container {
+#menu__pop-up:checked+.pop-up-container {
     visibility: hidden;
 }
 
-#menu__pop-up:checked + .menu__btn-pop-up {
+#menu__pop-up:checked+.menu__btn-pop-up {
     visibility: hidden;
 }
 
@@ -870,12 +869,12 @@ body {
         margin-left: 3px;
     }
 
-    .links-trend {    
-        font-size: 10px;
+    .links-trend {
+        font-size: 8px;
     }
-    
+
     .title-trend {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
@@ -1040,10 +1039,6 @@ body {
 
     .trend:first-child {
         margin-left: 0;
-    }
-
-    .trend-content {
-        width: 51%;
     }
 
     .links-trend {
