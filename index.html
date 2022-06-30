@@ -466,29 +466,32 @@
 
     <div class="pop-up-menu">
 
-        <input id="menu__pop-up" type="checkbox" />
+<!--        <input id="menu__pop-up" type="checkbox" />    -->
     
-        <div class="pop-up">
-            <div class="pop-up-intermediate">
-                <label class="menu__btn-pop-up" for="menu__pop-up">
+        <div class="pop-up" id="pop-up">
+            <form class="pop-up-intermediate">
+<!--                <label class="menu__btn-pop-up" for="menu__pop-up">
                     <img class="cross" src="svg/form-x.svg" alt="крестик">
                 </label>
-    
+            --> 
+                <button class="menu__btn-pop-up" title="Закрыть" onclick="document.getElementById('pop-up').style.display='none';">
+                    <img class="cross" src="svg/form-x.svg" alt="крестик">
+                </button>   
                 <div class="pop-up-container">
     
                     <h2 class="title-pop-up title">Ваш фидбек</h2>
                     <p class="feedback">Как часто вы заходите на сайт?</p>
-                    <form class="feedback-form">
+                    <div class="feedback-form">
                         <div class="feedback-label">
                             <input type="text" class="input-feedback" placeholder="Почти каждый день" required>
                             <button type="submit" class="container-feedback">
                                 <img src="svg/form-arrows.svg" class="image-feedback" alt="Стрелки">
                             </button>
                         </div>
-                    </form>
+                    </div>
     
                     <p class="mailing">Вы подписаны на e-mail рассылку?</p>
-                    <form class="mailing-form">
+                    <div class="mailing-form">
                         <label class="mailing-radio container">
                             <input class="radio" name="mailing" type="radio" value="yes" checked>
                             <span class="mailing-choice">Да</span>
@@ -497,15 +500,15 @@
                             <input class="radio" name="mailing" type="radio" value="no">
                             <span class="mailing-choice">Нет</span>
                         </label>
-                    </form>
+                    </div>
                     <p class="question">Расскажите, какой контент Вы хотели бы видеть на нашем сайте?</p>
-                    <form class="question-form">
+                    <div class="question-form">
                         <textarea class="textarea" name="textarea" placeholder="Может, больше рецептов?"></textarea>
                         <button type="submit" class="container-question white">Отправить</button>
-                    </form>
+                    </div>
     
                 </div>
-            </div>
+            </form>
 
         </div>
     </div>

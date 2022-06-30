@@ -662,16 +662,14 @@ body {
 
 .pop-up {
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     z-index: 3;
 
-    overflow: auto;
-    width: 100vw;
-    height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow: auto;
 
     background-color: rgba(36, 36, 34, 0.9);
 }
@@ -680,11 +678,12 @@ body {
     position: relative;
     max-width: 330px;
     max-height: 624px;
+    margin: auto;
     padding-top: 34px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-
+/*
 #menu__pop-up:checked+.pop-up {
     visibility: hidden;
 }
@@ -700,6 +699,7 @@ body {
 #menu__pop-up:checked+.menu__btn-pop-up {
     visibility: hidden;
 }
+*/
 
 .pop-up-container {
     z-index: 3;
@@ -743,11 +743,14 @@ body {
     width: 23px;
 
     cursor: pointer;
+    background-color: rgba(36, 36, 34, 0.9);
+    border: none;
 }
-
+/*
 #menu__pop-up {
     display: none;
 }
+*/
 
 .feedback {
     margin-top: 26px;
@@ -780,7 +783,7 @@ body {
 
 .image-feedback {
     height: 15px;
-    margin-right: 13px;
+    margin: 13px;
 }
 
 .mailing {
